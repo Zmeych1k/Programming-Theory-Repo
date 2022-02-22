@@ -9,7 +9,6 @@ public abstract class Figure : MonoBehaviour
         get;
     }
 
-    // Update is called once per frame
     void Update()
     {
 
@@ -27,5 +26,6 @@ public abstract class Figure : MonoBehaviour
         }
     }
 
+    // POLYMORPHISM
     public abstract void DisplayDetailsText(GameObject gameObject);
 }
